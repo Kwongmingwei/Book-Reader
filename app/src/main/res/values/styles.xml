@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+
+    <style name="normalBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/textcolor</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+    <style name="CustomToolbarStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/textcolor</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <!--Menu Item Theme of the toolbar-->
+
+    <style name="CustomPopupStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+
+    </style>
+
+    <style name="BookReadBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/textcolor</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <!--Menu Item Theme of the toolbar-->
+
+    <style name="BookReadPopup" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+
+    </style>
+
+</resources>
